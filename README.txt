@@ -14,3 +14,5 @@ content as well.
 To run, type:
 
 mvn clean install exec:java -Dexec.mainClass="com.wipro.crawler.Launcher"
+
+sample output is in src/test/resources/sample-output.xml

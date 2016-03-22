@@ -10,6 +10,7 @@ public class Launcher {
     public static void main(String[] args) {
 
         Crawler crawler = new Crawler();
-        crawler.crawl("http://wiprodigital.com");
+        String siteMap = crawler.crawl("http://wiprodigital.com");
+        System.out.println(siteMap);
     }
 }

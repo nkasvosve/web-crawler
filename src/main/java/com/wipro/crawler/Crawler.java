@@ -33,7 +33,7 @@ public class Crawler {
 
             List<String> urls = extractUrls(content);
             StringBuilder builder = new StringBuilder(PROC_ISTR);
-            builder.append("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">").append("urls");
+            builder.append("<urlset>").append("urls");
             for (String url : urls) {
                 builder.append("<url><loc>").append(url).append("</loc></url>");
             }
