@@ -1,0 +1,17 @@
+https://api.w.org
+http://wiprodigital.com/wp-json
+http://wiprodigital.com/xmlrpc.php?rsd
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-includes/wlwmanifest.xml
+http://wiprodigital.com
+http://wiprodigital.com
+http://wiprodigital.com/wp-content/plugins/leaflet-maps-marker/leaflet-georss.php?layer=all
+http://wiprodigital.com
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-content/uploads/2016/01/og-image.jpg
+/gs_async.js?
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-content/uploads/2014/07/homecover.jpg
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-content/uploads/2015/09/WD_logo_150X27.png
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-content/uploads/2014/07/wipro-digital-in24-concept.jpg
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-content/uploads/2013/10/conceptcover.jpg
+http://11689-presscdn-0-83.pagely.netdna-cdn.com/wp-content/uploads/2013/11/quotebg.jpg
+http://wiprodigital.com/wp-content/themes/wipro-digital/images/overlay-pattern.png
+http://wiprodigital.com/wp-content/themes/wipro-digital/images/overlay-pattern2.png

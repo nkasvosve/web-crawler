@@ -21,16 +21,16 @@ public class Crawler {
 
     public static final UserAgent USER_AGENT = new UserAgent("none", "none@domain.com", "http://none.domain.com");
 
-    public void crawl(String address) {
+    public String crawl(String address) {
 
         BaseHttpFetcher fetcher = new SimpleHttpFetcher(5, USER_AGENT);
         fetcher.setRedirectMode(BaseHttpFetcher.RedirectMode.FOLLOW_NONE);
 
         try {
+
             FetchedResult fetchedResult = fetcher.get(address);
             String content = new String(fetchedResult.getContent());
 
-            LOG.debug("Finished fetching content");
             List<String> urls = extractUrls(content);
             StringBuilder builder = new StringBuilder(PROC_ISTR);
             builder.append("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">").append("urls");
@@ -39,11 +39,11 @@ public class Crawler {
             }
             builder.append("</urlset>");
 
-            System.out.println(builder);
-
+            return builder.toString();
         } catch (Exception e) {
             LOG.error("Error", e);
         }
+        return null;
     }
 
     /**
